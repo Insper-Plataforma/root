@@ -1,0 +1,18 @@
+site_name: Plataforma de Microsserviços
+theme:
+  name: material
+  language: pt
+
+nav:
+  - Início: index.md
+  - Fluxo da Plataforma: fluxo.md
+  - Microsserviços:
+      - Auth Service: microsservicos/auth.md
+      - Account Service: microsservicos/account.md
+      - Product Service: microsservicos/product.md
+      - Order Service: microsservicos/order.md
+      - Gateway Service: microsservicos/gateway.md
+  - Bottlenecks: bottlenecks.md
+  - Jenkins: jenkins.md
+  - Minikube: minikube.md
+  - Referências: referencias.md
