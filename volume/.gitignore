@@ -1,0 +1,6 @@
+postgres/
+grafana/plugins/
+# Ignore all files in the postgres directory
+# Ignore all files in the grafana plugins directory
+grafana/grafana.db
+# Ignore the Grafana database file
