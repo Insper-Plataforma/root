@@ -457,6 +457,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../exchange/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exchange Service
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../gateway/" class="md-nav__link">
         
   
@@ -657,7 +680,7 @@
 
 <h1 id="product-service">Product Service</h1>
 <h2 id="funcao">Função</h2>
-<p>Responsável pelo cadastro, consulta e exclusão de produtos. Utiliza cache com Redis para otimização de desempenho.</p>
+<p>Responsável pelo cadastro, consulta e exclusão de produtos. Utiliza cache com Redis para otimização de desempenho e Prometheus + Grafana para observabilidade (configurados apenas nesse microsserviço para fins educativos, mas facilmente replicável nos outros microsserviços).</p>
 <hr />
 <h2 id="endpoints">Endpoints</h2>
 <ul>
@@ -672,6 +695,7 @@
 <li>Spring Boot</li>
 <li>Spring Data JPA</li>
 <li>Redis + Spring Cache (<code>@Cacheable</code>)</li>
+<li>Prometheus + Grafana</li>
 <li>CI: Jenkinsfile com <code>mvn clean package</code> e Docker build</li>
 </ul>
 <hr />
