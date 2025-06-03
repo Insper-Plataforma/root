@@ -20,13 +20,36 @@ Este projeto é composto por diversos microsserviços, cada um responsável por 
 - `account-service` – Cadastro de contas e perfis
 - `product-service` – Gestão de produtos
 - `order-service` – Registro e consulta de pedidos
+- `exchange-service` – Consulta de taxas de câmbio
 - `gateway-service` – API Gateway com filtros de autenticação
 
 ---
 
 ## Vídeo apresentação microsserviços
 
-[![Vídeo de apresentação](https://img.youtube.com/vi/8b1k2J3Y4aA/0.jpg)](https://www.youtube.com/watch?v=8b1k2J3Y4aA)
+### Vídeo de introdução do projeto
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/XGv9YNG1S3s" 
+  title="Vídeo de introdução do projeto" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+
+### Vídeo de demonstração dos microsserviços
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/rCCK7CfvaJo" 
+  title="Vídeo de demonstração dos microsserviços" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
 
 ---
 

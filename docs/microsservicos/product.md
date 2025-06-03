@@ -2,7 +2,7 @@
 
 ## Função
 
-Responsável pelo cadastro, consulta e exclusão de produtos. Utiliza cache com Redis para otimização de desempenho.
+Responsável pelo cadastro, consulta e exclusão de produtos. Utiliza cache com Redis para otimização de desempenho e Prometheus + Grafana para observabilidade (configurados apenas nesse microsserviço para fins educativos, mas facilmente replicável nos outros microsserviços).
 
 ---
 
@@ -20,6 +20,7 @@ Responsável pelo cadastro, consulta e exclusão de produtos. Utiliza cache com 
 - Spring Boot
 - Spring Data JPA
 - Redis + Spring Cache (`@Cacheable`)
+- Prometheus + Grafana
 - CI: Jenkinsfile com `mvn clean package` e Docker build
 
 ---

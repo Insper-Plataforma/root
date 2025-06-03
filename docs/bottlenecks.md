@@ -17,4 +17,4 @@ Coletando métricas de:
 
 ### Dashboard no Grafana com as métricas
 
-![Dashboard no Grafana](img/grafana.png)
+![Dashboard no Grafana](img/dash.png)
