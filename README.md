@@ -26,6 +26,7 @@ Este projeto é um **exemplo completo de arquitetura de microsserviços**, com f
 | `account-service` | Gerencia contas de usuário (cadastro, login etc.)       |
 | `product-service` | CRUD de produtos, com suporte a cache Redis             |
 | `order-service`   | Criação e consulta de pedidos                           |
+| `exchange-service`| Retorna a taxa de câmbio entre duas moedas              |
 | `gateway-service` | API Gateway que filtra e redireciona requisições        |
 
 ---
